@@ -6,7 +6,7 @@ import SubmitButton from "../form/SubmitButton"
 
 export default function ProjectForm (){
     return(
-    <div className="flex flex-col items-center justify-center h-[60vh] ">
+    <div className="grid justify-center pt-[60px] h-[60vh] ">
         <h1 className="font-bold text-[180%]">Criar Projeto</h1>
         <p className="">Crie seu projeto para depois adicionar os serviços</p>
         <form>
@@ -19,7 +19,7 @@ export default function ProjectForm (){
             type="number"
             text="Orçamento do projeto"
             name="budget"
-            placeholder="Inira o nome do projeto" />
+            placeholder="Inira o orçamento do projeto" />
             <Select 
             name="category_id"
             text="Selecione a categoria" />
