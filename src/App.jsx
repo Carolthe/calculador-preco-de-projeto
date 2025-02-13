@@ -16,14 +16,14 @@ function App() {
     <Link to="/" className=''><img src={logo} alt="Moeda" className='sm:w-11' /></Link>
   <div className='flex justify-end items-center sm:gap-7  text-white w-full'> 
     <Link to="/" className=' hover:text-yellow-400' >Home</Link>
-    <Link to="/projetos" className=' hover:text-yellow-400'>Projetos</Link>
+    <Link to="/projects" className=' hover:text-yellow-400'>Projetos</Link>
     <Link to="/company" className=' hover:text-yellow-400'>Empresa</Link>
     <Link to="/contact" className=' hover:text-yellow-400'>Contato</Link>
   </div> 
   </div>
     <Routes> 
         <Route path="/" element={<Home />} /> 
-        <Route path="/projetos" element={<Projects />} /> 
+        <Route path="/projects" element={<Projects />} /> 
         <Route path="/company" element={<Company />} /> 
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/newproject" element={<NewProject/>}/>

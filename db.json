@@ -43,6 +43,42 @@
       "id": "46ea",
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "584a",
+      "name": "projeto 1",
+      "budget": "1200",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "c288",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "4e40",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "6a0e",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "afb9",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "d0af",
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
