@@ -1,4 +1,4 @@
-export default function input({type, text, name, placeholder, handleOnChange, value}){
+export default function input({type, text, name, placeholder,handleOnChange, value}){
     return(
         <div>
             <label className="font-bold text-[120%]" 
@@ -8,7 +8,7 @@ export default function input({type, text, name, placeholder, handleOnChange, va
             name={name} 
             id={name} 
             placeholder={placeholder} 
-            onChange={handleOnChange} 
+            onChange={handleOnChange}
             value={value} />
         </div>
     )

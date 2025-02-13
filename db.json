@@ -1,0 +1,66 @@
+{
+  "projects": [
+    {
+      "id": "7e3a",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "6669",
+      "name": "Caroline Tenorio",
+      "budget": "11",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "a8eb",
+      "name": "Site",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "84cd",
+      "budget": "545",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "2fe7",
+      "budget": "500",
+      "name": "Site",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "46ea",
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Desing"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}
