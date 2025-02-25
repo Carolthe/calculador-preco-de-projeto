@@ -1,5 +1,4 @@
-import { useEffect } from "react"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export default function Message ({type, msg}){
 
@@ -23,8 +22,7 @@ export default function Message ({type, msg}){
     <div>
         {visible &&( 
         <p className={`${styles.message} ${styles[type]}`} >{msg}</p>
-        )
-        }
+        )}
     </div>
     )
 }
