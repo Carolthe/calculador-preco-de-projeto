@@ -24,7 +24,6 @@ export default function ProjectForm (props){
         .catch((err) => console.log(err))
     }, [])
 
-
     const submit = (e) => {
         e.preventDefault()
         handleSubmit(project)

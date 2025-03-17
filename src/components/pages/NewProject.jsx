@@ -22,8 +22,9 @@ export default function NewProject (){
 
             console.log(data)
 
-            const state = { message: "Projeto criado com sucesso!" };
-            navigate("/projects", {state});
+            navigate("/projects", {
+                state: { message: "Projeto criado com sucesso!" },
+              })
             
         })
         .catch((err) => console.log(err))

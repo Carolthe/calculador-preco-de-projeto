@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 export default function Message ({type, msg}){
 
-    const [visible, setVisible] = useState(false)
+    const [visible, setVisible] = useState(true)
 
     useEffect(() =>{
         if(!msg){
@@ -13,16 +13,14 @@ export default function Message ({type, msg}){
 
         const timer = setTimeout(()=>{
             setVisible(false)
-        }, 3000)
-        
-        return()=> clearTimeout(timer)
+        }, 3000)        
+
+        return() => clearTimeout(timer)
     }, [msg])
 
+
+    
     return(
-    <div>
-        {visible &&( 
-        <p className={`${styles.message} ${styles[type]}`} >{msg}</p>
-        )}
-    </div>
+    <div>{visible && msg && <p className={`${styles.message} ${styles[type] || ""}`}>{msg}</p>}</div>
     )
 }
